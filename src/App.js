@@ -3,6 +3,7 @@ import SocialLinks from "./components/SocialLinks.jsx";
 import Home from "./Home.jsx";
 import About from './components/About.js';
 import Projects from './components/Projects.jsx';
+import Skills from './components/Skills.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SocialLinks/>
       <About/>
       <Projects/>
+      <Skills/>
     </div>
   );
 }
